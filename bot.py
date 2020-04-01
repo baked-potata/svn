@@ -19,7 +19,7 @@ import logging
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters, RegexHandler,
                           ConversationHandler)
 ###############################################################
-welcome = "Hey {} I Am Saavn Downloader \n Please Send Me Saavn Link \n Report At  @aryanvikash "
+welcome = "Hey {} I Am Saavn Downloader \n Please Send Me Saavn Link  "
 
 
 
@@ -27,7 +27,7 @@ welcome = "Hey {} I Am Saavn Downloader \n Please Send Me Saavn Link \n Report A
 
 #Bot config
 
-bot_token ='YOUR_BOT_TOKEN_HERE'
+bot_token ='1136913072:AAHcjUU6P_OSU9j2byVdQCw58FoJxdqSrUk'
 updater = Updater(bot_token, use_context=True)
 dp = updater.dispatcher
 
